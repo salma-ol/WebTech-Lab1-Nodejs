@@ -1,0 +1,26 @@
+{
+  "name": "WebTech-Lab1-Nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salma-ol/WebTech-Lab1-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Salma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salma-ol/WebTech-Lab1-Nodejs/issues"
+  },
+  "homepage": "https://github.com/salma-ol/WebTech-Lab1-Nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "exr": "^1.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
