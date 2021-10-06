@@ -21,8 +21,10 @@ module.exports = {
       
         if (path === '/hello/' && 'name' in params) {
           res.write('Hello ' + params['name'])
-        } else {
-          res.write('Hello anonymous')
+        }else if(path ==='/hello/'){
+          res.write('Hello anonymous') ; 
+        }else{
+          res.write('404 error') ; 
         }
         
         res.end();
